@@ -1,4 +1,4 @@
-string script_id
+int64 script_id
 string script_name
 ---
 

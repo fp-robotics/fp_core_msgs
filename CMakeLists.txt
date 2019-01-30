@@ -11,9 +11,10 @@ add_service_files(
   FILES
   Calibrate.srv
   DigitalInputOutput.srv
+  GetStatus.srv
   Initialize.srv
-  SetFloat.srv
   SetInt.srv
+  SetString.srv
   TestScript.srv
 )
 

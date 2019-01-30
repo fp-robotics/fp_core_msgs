@@ -9,6 +9,7 @@ find_package(catkin REQUIRED
 # generate services in the 'srv' folder
 add_service_files(
   FILES
+  Calibrate.srv
   DigitalInputOutput.srv
   Initialize.srv
   SetInt.srv

@@ -13,6 +13,7 @@ add_service_files(
   DigitalInputOutput.srv
   Initialize.srv
   SetInt.srv
+  TestScript.srv
 )
 
 # generate added messages and services

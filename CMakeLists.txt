@@ -13,6 +13,8 @@ add_service_files(
   DigitalInputOutput.srv
   GetStatus.srv
   Initialize.srv
+  InverseKinematics.srv
+  Kinematics.srv
   SetInt.srv
   MoveJoint.srv
   MoveTool.srv

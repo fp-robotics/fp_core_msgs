@@ -2,4 +2,5 @@ string code
 string type
 int64 id
 ---
-
+bool success
+string message

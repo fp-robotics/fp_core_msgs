@@ -14,6 +14,7 @@ add_service_files(
   GetStatus.srv
   Initialize.srv
   SetInt.srv
+  SetJoints.srv
   SetString.srv
   TestScript.srv
 )

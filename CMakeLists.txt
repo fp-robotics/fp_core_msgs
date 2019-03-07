@@ -14,8 +14,10 @@ add_service_files(
   GetStatus.srv
   Initialize.srv
   SetInt.srv
-  SetJoints.srv
+  MoveJoint.srv
+  MoveTool.srv
   SetString.srv
+  SimplePath.srv
   TestScript.srv
 )
 

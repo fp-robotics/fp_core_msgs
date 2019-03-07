@@ -11,10 +11,11 @@ add_service_files(
   FILES
   Calibrate.srv
   DigitalInputOutput.srv
-  GetStatus.srv
+  RequestData.srv
   Initialize.srv
   InverseKinematics.srv
   Kinematics.srv
+  ListInt.srv
   SetInt.srv
   MoveJoint.srv
   MoveTool.srv

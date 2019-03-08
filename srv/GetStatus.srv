@@ -15,3 +15,5 @@ uint32 PROCESS=12
 uint32 CHARGE=13
 uint32 LISTEN=14
 uint32 status
+bool success
+string message

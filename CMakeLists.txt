@@ -22,7 +22,7 @@ add_service_files(
   SetString.srv
   SimplePath.srv
   TestScript.srv
-  GetInt.srv
+  GetStatus.srv
 )
 
 # generate added messages and services

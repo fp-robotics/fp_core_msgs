@@ -4,5 +4,6 @@ float64 z
 float64[] orientation
 float64[] previous_angles
 ---
+float64[] joint_angles
 bool success
 string message

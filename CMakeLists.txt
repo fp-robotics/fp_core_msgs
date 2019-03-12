@@ -3,7 +3,15 @@ project(fp_core_msgs)
 
 # find message_generation library
 find_package(catkin REQUIRED
+  geometry_msgs
   message_generation
+)
+
+# enerate messages in the 'msg' folder
+add_message_files(
+  FILES
+  OrientationNautical.msg
+  Pose.msg
 )
 
 # generate services in the 'srv' folder
@@ -13,8 +21,8 @@ add_service_files(
   DigitalInputOutput.srv
   RequestData.srv
   Initialize.srv
+  ForwardKinematics.srv
   InverseKinematics.srv
-  Kinematics.srv
   ListInt.srv
   SetInt.srv
   MoveJoint.srv
@@ -26,5 +34,8 @@ add_service_files(
 )
 
 # generate added messages and services
-generate_messages()
+generate_messages(
+  DEPENDENCIES
+  geometry_msgs
+)
 

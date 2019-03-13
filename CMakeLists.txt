@@ -31,6 +31,8 @@ add_service_files(
   SimplePath.srv
   TestScript.srv
   GetStatus.srv
+  GetListFloat.srv
+  GetListBool.srv
 )
 
 # generate added messages and services

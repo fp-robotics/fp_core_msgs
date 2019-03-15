@@ -35,6 +35,7 @@ add_service_files(
   GetListBool.srv
   GetGridPoints.srv
   GetPose.srv
+  IsMotorMoving.srv
 )
 
 # generate added messages and services

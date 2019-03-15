@@ -34,6 +34,7 @@ add_service_files(
   GetListFloat.srv
   GetListBool.srv
   GetGridPoints.srv
+  GetPose.srv
 )
 
 # generate added messages and services

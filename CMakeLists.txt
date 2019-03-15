@@ -33,6 +33,7 @@ add_service_files(
   GetStatus.srv
   GetListFloat.srv
   GetListBool.srv
+  GetGridPoints.srv
 )
 
 # generate added messages and services

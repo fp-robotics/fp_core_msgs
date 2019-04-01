@@ -1,6 +1,6 @@
 ---
 uint32 NONE=0
-uint32 CONNECT=0
+uint32 CONNECT=1
 uint32 DISCONNECT=2
 uint32 READY=3
 uint32 STOP=4

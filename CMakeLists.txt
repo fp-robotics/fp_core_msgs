@@ -10,6 +10,7 @@ find_package(catkin REQUIRED
 # enerate messages in the 'msg' folder
 add_message_files(
   FILES
+  JointAngles.msg
   OrientationNautical.msg
   Pose.msg
 )

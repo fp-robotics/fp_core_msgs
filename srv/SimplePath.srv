@@ -1,4 +1,4 @@
-string[] path_poses
+JointAngles[] path_poses
 float32[] velocity
 float32[] acceleration
 bool block

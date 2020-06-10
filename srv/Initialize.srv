@@ -1,5 +1,5 @@
-string robot_kind
-string robot_name
+uint32 layout_id
+bool simulate
 ---
 bool success
 string message

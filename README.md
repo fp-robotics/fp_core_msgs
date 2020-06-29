@@ -3,7 +3,7 @@
 # F&P CORE MESSAGES
 
 Author: Martin Möller (MPM)  
-Compatible with myP versions 1.4.0.(0-1)
+Compatible with myP version 1.5.0
 
 Message and service types to read data from the myP core and access selected functions through ROS services.
 
@@ -16,6 +16,6 @@ Clone this repo into the `src` directory of your catkin workspace and build it, 
 
 ## Using myP's ROS module
 
-Please have a look at the __**myP ROS Connection Module 1.4.0**__ manual for detailed examples.  
+Please have a look at the __**myP ROS Connection Module 1.5.0**__ manual for detailed examples.  
 Should you find any issues, please report them to [support@fp-robotics.com](support@fp-robotics.com).
 

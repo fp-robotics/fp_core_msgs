@@ -18,8 +18,6 @@ add_message_files(
 # generate services in the 'srv' folder
 add_service_files(
   FILES
-  Calibrate.srv
-  DigitalInputOutput.srv
   RequestData.srv
   Initialize.srv
   ForwardKinematics.srv
@@ -37,6 +35,8 @@ add_service_files(
   GetGridPoints.srv
   GetPose.srv
   IsMotorMoving.srv
+  WriteAnalogIO.srv
+  WriteDigitalIO.srv
 )
 
 # generate added messages and services

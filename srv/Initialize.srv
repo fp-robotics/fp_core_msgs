@@ -1,5 +1,7 @@
-uint32 layout_id
+string tool_id
 bool simulate
+uint32 calibration_script_id
+bool force_calibration
 ---
 bool success
 string message

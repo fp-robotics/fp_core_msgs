@@ -1,5 +1,5 @@
+int64[] identifiers
 bool[] values
-int64[] bits
 ---
 bool success
 string message

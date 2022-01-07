@@ -2,6 +2,7 @@ string tool_id
 bool simulate
 uint32 calibration_script_id
 bool force_calibration
+bool omit_dialog
 ---
 bool success
 string message

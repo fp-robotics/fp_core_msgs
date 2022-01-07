@@ -1,5 +1,0 @@
-string username
-string password
----
-bool success
-string message

@@ -18,7 +18,7 @@ add_message_files(
   JointVelocity.msg
   NauticalAngles.msg
   Pose.msg
-  PosAlternative.msg
+  PoseAlternative.msg
   Sensors.msg
 )
 

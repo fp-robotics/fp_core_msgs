@@ -42,10 +42,10 @@ add_service_files(
   ReadSensorData.srv
   Reconfigure.srv
   RequestData.srv
-  RunScript.srv
   SetInt.srv
   SetString.srv
   SimplePath.srv
+  TestScript.srv
   WriteAnalogIO.srv
   WriteDigitalIO.srv
 )

@@ -10,9 +10,16 @@ find_package(catkin REQUIRED
 # generate messages in the 'msg' folder
 add_message_files(
   FILES
+  AnalogIO.msg
+  DigitalIO.msg
   JointAngles.msg
-  OrientationNautical.msg
+  JointCurrent.msg
+  JointPosition.msg
+  JointVelocity.msg
+  NauticalAngles.msg
   Pose.msg
+  PosAlternative.msg
+  Sensors.msg
 )
 
 # generate services in the 'srv' folder
@@ -24,12 +31,16 @@ add_service_files(
   GetListFloat.srv
   GetPose.srv
   GetStatus.srv
+  InformationPoolGet.srv
   Initialize.srv
   InverseKinematics.srv
   IsMotorMoving.srv
   ListInt.srv
   MoveJoint.srv
   MoveTool.srv
+  ReadGripperAngle.srv
+  ReadSensorData.srv
+  Reconfigure.srv
   RequestData.srv
   SetInt.srv
   SetString.srv
@@ -44,4 +55,3 @@ generate_messages(
   DEPENDENCIES
   geometry_msgs
 )
-

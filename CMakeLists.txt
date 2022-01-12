@@ -32,12 +32,13 @@ add_service_files(
   GetPose.srv
   GetStatus.srv
   InformationPoolGet.srv
-  PowerUp.srv
   InverseKinematics.srv
   IsMotorMoving.srv
   ListInt.srv
   MoveJoint.srv
   MoveTool.srv
+  PowerUp.srv
+  PowerUpAndCalibrate.srv
   ReadGripperAngle.srv
   ReadSensorData.srv
   Reconfigure.srv

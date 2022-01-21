@@ -1,5 +1,5 @@
-bool[] values
-int64[] bits
+uint32 tool_id
+bool simulate
 ---
 bool success
 string message

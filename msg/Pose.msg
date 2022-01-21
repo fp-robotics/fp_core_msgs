@@ -1,2 +1,2 @@
 geometry_msgs/Point position
-OrientationNautical orientation
+NauticalAngles orientation

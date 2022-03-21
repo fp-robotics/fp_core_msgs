@@ -26,6 +26,7 @@ add_message_files(
 add_service_files(
   FILES
   ForwardKinematics.srv
+  GenericDataService.srv
   GetGridPoints.srv
   GetListBool.srv
   GetListFloat.srv

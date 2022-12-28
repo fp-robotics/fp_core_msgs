@@ -48,6 +48,7 @@ add_service_files(
   SetString.srv
   SimplePath.srv
   TestScript.srv
+  TokenLogin.srv
   WriteAnalogIO.srv
   WriteDigitalIO.srv
 )
